@@ -12,22 +12,11 @@ import {
   FiNavigation,
 } from "react-icons/fi";
 
-// ================= AMENITY IMAGES =================
-
-import primeLocation from "../assets/images/prime_location.png";
-import connectivity from "../assets/images/connectivity.png";
-import residentialPlots from "../assets/images/residential_plot.png";
-import plannedDevelopment from "../assets/images/planned_developement.png";
-import infrastructure from "../assets/images/essential_infrastructure.png";
-import security from "../assets/images/peace.png";
-import lifestyle from "../assets/images/lifestyle.png";
-import futureReady from "../assets/images/future.png";
-
 // ================= AMENITIES DATA =================
 
 const amenities = [
   {
-    image: primeLocation,
+    image: "/images/prime_location.png",
     icon: FiMapPin,
     number: "01",
     title: "Prime Location",
@@ -35,7 +24,7 @@ const amenities = [
       "Strategically positioned along the ECR corridor for a well-connected coastal lifestyle.",
   },
   {
-    image: connectivity,
+    image: "/images/connectivity.png",
     icon: FiNavigation,
     number: "02",
     title: "Easy Connectivity",
@@ -43,7 +32,7 @@ const amenities = [
       "Enjoy convenient access to important destinations and the growing ECR corridor.",
   },
   {
-    image: residentialPlots,
+    image: "/images/residential_plot.png",
     icon: FiHome,
     number: "03",
     title: "Residential Plots",
@@ -51,7 +40,7 @@ const amenities = [
       "A dedicated space where you can plan and build a home that reflects your lifestyle.",
   },
   {
-    image: plannedDevelopment,
+    image: "/images/planned_developement.png",
     icon: FiGrid,
     number: "04",
     title: "Planned Development",
@@ -59,7 +48,7 @@ const amenities = [
       "Thoughtfully planned spaces designed to create a comfortable and organised environment.",
   },
   {
-    image: infrastructure,
+    image: "/images/essential_infrastructure.png",
     icon: FiDroplet,
     number: "05",
     title: "Essential Infrastructure",
@@ -67,7 +56,7 @@ const amenities = [
       "Designed with the essential infrastructure needed for a convenient everyday experience.",
   },
   {
-    image: security,
+    image: "/images/peace.png",
     icon: FiShield,
     number: "06",
     title: "Peace of Mind",
@@ -75,7 +64,7 @@ const amenities = [
       "Get property guidance and assistance throughout your plot-buying journey.",
   },
   {
-    image: lifestyle,
+    image: "/images/lifestyle.png",
     icon: FiActivity,
     number: "07",
     title: "Lifestyle Potential",
@@ -83,7 +72,7 @@ const amenities = [
       "A coastal setting that offers the opportunity to create your own lifestyle and future.",
   },
   {
-    image: futureReady,
+    image: "/images/future.png",
     icon: FiZap,
     number: "08",
     title: "Future Ready",
@@ -205,17 +194,17 @@ const Amenities = () => {
                     className="h-full w-full object-cover transition duration-700 group-hover:scale-110"
                   />
 
-                  {/* Image Overlay */}
+                  {/* IMAGE OVERLAY */}
 
                   <div className="absolute inset-0 bg-gradient-to-t from-[#062033]/70 via-transparent to-transparent" />
 
-                  {/* Number */}
+                  {/* NUMBER */}
 
                   <span className="absolute left-5 top-5 text-xs font-semibold tracking-[0.2em] text-white/80">
                     {item.number}
                   </span>
 
-                  {/* Icon */}
+                  {/* ICON */}
 
                   <div className="absolute bottom-5 right-5 flex h-11 w-11 items-center justify-center rounded-full border border-white/30 bg-[#062033]/60 text-[#D9B77A] backdrop-blur-md transition-all duration-500 group-hover:bg-[#D9B77A] group-hover:text-[#062033]">
                     <Icon size={18} />
@@ -235,7 +224,7 @@ const Amenities = () => {
                     {item.description}
                   </p>
 
-                  {/* Arrow */}
+                  {/* ARROW */}
 
                   <div className="mt-6 flex justify-end">
 
@@ -247,7 +236,7 @@ const Amenities = () => {
 
                 </div>
 
-                {/* Bottom Hover Line */}
+                {/* BOTTOM HOVER LINE */}
 
                 <span className="absolute bottom-0 left-0 h-1 w-0 bg-[#0b5d83] transition-all duration-500 group-hover:w-full" />
 
@@ -267,7 +256,7 @@ const Amenities = () => {
           className="relative mt-5 overflow-hidden rounded-[1.5rem] bg-[#062033]"
         >
 
-          {/* Decorative Circles */}
+          {/* DECORATIVE CIRCLES */}
 
           <div className="pointer-events-none absolute -right-20 -top-20 h-72 w-72 rounded-full border border-white/10" />
 
@@ -280,11 +269,13 @@ const Amenities = () => {
             <div>
 
               <div className="mb-4 flex items-center gap-3">
+
                 <span className="h-px w-8 bg-[#D9B77A]" />
 
                 <span className="text-xs font-semibold uppercase tracking-[0.3em] text-[#D9B77A]">
                   Your Future Starts Here
                 </span>
+
               </div>
 
               <h3 className="max-w-3xl font-serif text-3xl leading-tight text-white sm:text-4xl lg:text-5xl">
@@ -334,6 +325,7 @@ const Amenities = () => {
               key={item}
               className="flex items-center gap-3"
             >
+
               <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#0b5d83]/10 text-[#0b5d83]">
                 <FiCheck size={12} />
               </span>
@@ -341,6 +333,7 @@ const Amenities = () => {
               <span className="text-sm text-[#526774]">
                 {item}
               </span>
+
             </div>
           ))}
 
