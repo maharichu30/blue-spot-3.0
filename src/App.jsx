@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import ProjectHighlights from "./components/ProjectHighlights";
 import NewBesantNagar from "./components/NewBesantNagar";
-import Location from "../../../akkurate/manju-group/src/components/Location";
+import Location from "./components/Location";
 import PlotOptions from "./components/PlotOptions";
 import EmiCalculator from "./components/EmiCalculator";
 import Amenities from "./components/Amenties";
