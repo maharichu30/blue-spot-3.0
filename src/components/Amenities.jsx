@@ -21,7 +21,7 @@ import {
 import primeLocation from "../assets/images/prime_location.png";
 import connectivity from "../assets/images/Connectivity.png";
 import residentialPlots from "../assets/images/residential_plot.png";
-import plannedDevelopment from "../assets/images/planned_development.png";
+import plannedDevelopment from "../assets/images/planned_developement.png";
 import infrastructure from "../assets/images/essential_infrastructure.png";
 import security from "../assets/images/peace.png";
 import lifestyle from "../assets/images/lifestyle.png";
