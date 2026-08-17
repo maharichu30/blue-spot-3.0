@@ -5,7 +5,7 @@ import NewBesantNagar from "./components/NewBesantNagar";
 import Location from "./components/Location";
 import PlotOptions from "./components/PlotOptions";
 import EmiCalculator from "./components/EmiCalculator";
-import Amenities from "./components/Amenties";
+import Amenities from "./components/Amenities";
 import Gallery from "./components/Gallery";
 import ManjuGroup from "./components/ManjuGroups";
 import FAQ from "./components/FAQ";
