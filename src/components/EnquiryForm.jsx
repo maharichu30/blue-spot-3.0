@@ -153,7 +153,7 @@ const EnquiryForm = () => {
                     </p>
 
                     <p className="mt-1 text-sm text-white/70">
-                      +91 XXXXX XXXXX
+                      +91 96000 33336
                     </p>
                   </div>
                 </div>
@@ -169,7 +169,7 @@ const EnquiryForm = () => {
                     </p>
 
                     <p className="mt-1 text-sm text-white/70">
-                      info@example.com
+                      info@manjugroups.in
                     </p>
                   </div>
                 </div>
