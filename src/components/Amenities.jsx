@@ -16,7 +16,7 @@ import {
 
 const amenities = [
   {
-    image: "/images/prime_location.png",
+    image: "/assets/images/prime_location.png",
     icon: FiMapPin,
     number: "01",
     title: "Prime Location",
@@ -24,7 +24,7 @@ const amenities = [
       "Strategically positioned along the ECR corridor for a well-connected coastal lifestyle.",
   },
   {
-    image: "/images/connectivity.png",
+    image: "/assets/images/Connectivity.png",
     icon: FiNavigation,
     number: "02",
     title: "Easy Connectivity",
@@ -40,7 +40,7 @@ const amenities = [
       "A dedicated space where you can plan and build a home that reflects your lifestyle.",
   },
   {
-    image: "/images/planned_developement.png",
+    image: "/assets/images/Planned_Development.png",
     icon: FiGrid,
     number: "04",
     title: "Planned Development",
@@ -48,7 +48,7 @@ const amenities = [
       "Thoughtfully planned spaces designed to create a comfortable and organised environment.",
   },
   {
-    image: "/images/essential_infrastructure.png",
+    image: "/assets/images/essential_infrastructure.png",
     icon: FiDroplet,
     number: "05",
     title: "Essential Infrastructure",
@@ -56,7 +56,7 @@ const amenities = [
       "Designed with the essential infrastructure needed for a convenient everyday experience.",
   },
   {
-    image: "/images/peace.png",
+    image: "/assets/images/peace.png",
     icon: FiShield,
     number: "06",
     title: "Peace of Mind",
@@ -64,7 +64,7 @@ const amenities = [
       "Get property guidance and assistance throughout your plot-buying journey.",
   },
   {
-    image: "/images/lifestyle.png",
+    image: "/assets/images/lifestyle.png",
     icon: FiActivity,
     number: "07",
     title: "Lifestyle Potential",
@@ -72,7 +72,7 @@ const amenities = [
       "A coastal setting that offers the opportunity to create your own lifestyle and future.",
   },
   {
-    image: "/images/future.png",
+    image: "/assets/images/future.png",
     icon: FiZap,
     number: "08",
     title: "Future Ready",
