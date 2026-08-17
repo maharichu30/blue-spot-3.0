@@ -13,7 +13,7 @@ import FAQ from "./components/FAQ";
 import EnquiryForm from "./components/EnquiryForm";
 import Footer from "./components/Footer";
 import Masterplan from "./components/MasterPlan";
-import IconAmenities from "./components/iconAmenties";
+import IconAmenities from "./components/IconAmenties";
 import SocialSidebar from "./components/SocialSidebar";
 
 function App() {
